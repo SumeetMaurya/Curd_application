@@ -1,0 +1,60 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20230612T200000
+DTEND;TZID=Asia/Kolkata:20230612T210000
+DTSTAMP:20230612T043856Z
+ORGANIZER;CN=manas@eduwol.com:mailto:manas@eduwol.com
+UID:5hcrn0l1e10okn15dk0hjg68m5@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=brijmohangautam42@gmail.com;X-NUM-GUESTS=0:mailto:brijmohangautam42
+ @gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=bskapardi2002@gmail.com;X-NUM-GUESTS=0:mailto:bskapardi2002@gmail.c
+ om
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=janabainshinde1997@gmail.com;X-NUM-GUESTS=0:mailto:janabainshinde19
+ 97@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=manas@eduwol.com;X-NUM-GUESTS=0:mailto:manas@eduwol.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=nehaujjwal1614@gmail.com;X-NUM-GUESTS=0:mailto:nehaujjwal1614@gmail
+ .com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=sahil2070.be20@chitkara.edu.in;X-NUM-GUESTS=0:mailto:sahil2070.be20
+ @chitkara.edu.in
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=saurabhofficial203@gmail.com;X-NUM-GUESTS=0:mailto:saurabhofficial2
+ 03@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=sumeetmaurya135@gmail.com;X-NUM-GUESTS=0:mailto:sumeetmaurya135@gma
+ il.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/inc-dyip-gun
+X-MICROSOFT-CDO-OWNERAPPTID:-1630779480
+CREATED:20230612T041749Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/in
+ c-dyip-gun\n\nLearn more about Meet at: https://support.google.com/a/users/
+ answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20230612T043853Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Internship Orientation
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

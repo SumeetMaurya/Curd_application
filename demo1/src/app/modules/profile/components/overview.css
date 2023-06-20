@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  #citcit{
+    display:none;
+  }
+  
+  table{
+    margin-bottom: 40px;
+  }
+  
+  table th {
+    padding: 12px 51px;
+    background-color: #2b2b40;
+  }
+  
+  table td{
+    text-align: center;
+    border: 1px solid grey;
+    padding: 5px;
+  }
+  
+  button,
+  button::after {
+    -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+      transition: all 0.3s;
+  }
+  
+  .btn-5 {
+    background: none;
+    border: 3px solid lightseagreen;
+    border-radius: 5px;
+    color: lightseagreen;
+    display: block;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 1em auto;
+    padding: 1em 3em;
+    position: relative;
+    text-transform: uppercase;
+  }
+  
+  .btn-5::before,
+  .btn-5::after {
+    background: lightseagreen;
+    content: '';
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .btn-5:hover {
+    color: white;
+  }
+  
+  /* BUTTON 5 */
+  .btn-5 {
+    overflow: hidden;
+  }
+  
+  .btn-5::after {
+    /*background-color: #f00;*/
+    height: 100%;
+    left: -35%;
+    top: 0;
+    transform: skew(50deg);
+    transition-duration: 0.6s;
+    transform-origin: top left;
+    width: 0;
+  }
+  
+  .btn-5:hover:after {
+    height: 100%;
+    width: 135%;
+  }
+  #formcontent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+  }
+  #formid{
+    height: 450px;
+    border-radius: 10%;
+    background-color: #2b2b40;
+    margin-top: 100px; 
+    padding: 10px 100px ;
+  }
+  .showinglist{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+  }
+  
+  .inputbox{
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    border: 3px solid black;
+  }
+  .submitbutton, .pagecontrolbutton{
+    margin: 10px 70px 10px 70px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-weight: bold;
+  }
+  .pagecontrolbutton{
+    border: 1px solid black;
+    margin: 2px;
+  }
+  
+  .errormessage{
+    width: auto;
+    background-color: white;
+    border: 3px solid red;
+    padding: 3px;
+    color: red;
+    font-weight: 900;
+  }
+  .succmessage{
+    width: auto;
+    background-color: white;
+    padding: 3px;
+    border: 3px solid green;
+    color: green;
+    font-weight: 900;
+  }
+  .spacy{
+    height: 32px;
+  }
+  
+  .pagebuttons{
+    display: flex;
+    justify-content: center;
+  }
