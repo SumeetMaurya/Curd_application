@@ -7,6 +7,7 @@ import {AuthInit} from './modules/auth'
 
 const App = () => {
   return (
+    
     <Suspense fallback={<LayoutSplashScreen />}>
       <I18nProvider>
         <LayoutProvider>

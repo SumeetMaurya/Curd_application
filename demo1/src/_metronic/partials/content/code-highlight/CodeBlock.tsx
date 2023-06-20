@@ -37,37 +37,38 @@ const CodeBlock: React.FC<Props> = ({code, language}) => {
   }, [])
 
   return (
-    <div className='py-5'>
-      <div className='highlight'>
-        <OverlayTrigger
-          key='copy-to-clipboard'
-          placement='top'
-          overlay={<Tooltip id='tooltip-copy-to-clipboard'>Copy Code</Tooltip>}
-        >
-          <CopyToClipboard text={code} onCopy={() => setCopied(true)}>
-            <a className='highlight-copy btn'>{copied ? 'copied' : 'copy'}</a>
-          </CopyToClipboard>
-        </OverlayTrigger>
+    // <div className='py-5'>
+    //   <div className='highlight'>
+    //     <OverlayTrigger
+    //       key='copy-to-clipboard'
+    //       placement='top'
+    //       overlay={<Tooltip id='tooltip-copy-to-clipboard'>Copy Code</Tooltip>}
+    //     >
+    //       <CopyToClipboard text={code} onCopy={() => setCopied(true)}>
+    //         <a className='highlight-copy btn'>{copied ? 'copied' : 'copy'}</a>
+    //       </CopyToClipboard>
+    //     </OverlayTrigger>
 
-        <div className='highlight-code' ref={codeRef}>
-          <Highlight {...defaultProps} theme={theme} code={code} language={language}>
-            {({className, style, tokens, getLineProps, getTokenProps}) => {
-              return (
-                <pre className={className} style={{maxHeight: '300px', ...style}}>
-                  {tokens.map((line, i) => (
-                    <div {...getLineProps({line, key: i})}>
-                      {line.map((token, key) => (
-                        <span {...getTokenProps({token, key})} />
-                      ))}
-                    </div>
-                  ))}
-                </pre>
-              )
-            }}
-          </Highlight>
-        </div>
-      </div>
-    </div>
+    //     <div className='highlight-code' ref={codeRef}>
+    //       <Highlight {...defaultProps} theme={theme} code={code} language={language}>
+    //         {({className, style, tokens, getLineProps, getTokenProps}) => {
+    //           return (
+    //             <pre className={className} style={{maxHeight: '300px', ...style}}>
+    //               {tokens.map((line, i) => (
+    //                 <div {...getLineProps({line, key: i})}>
+    //                   {line.map((token, key) => (
+    //                     <span {...getTokenProps({token, key})} />
+    //                   ))}
+    //                 </div>
+    //               ))}
+    //             </pre>
+    //           )
+    //         }}
+    //       </Highlight>
+    //     </div>
+    //   </div>
+    // </div>
+    <></>
   )
 }
 

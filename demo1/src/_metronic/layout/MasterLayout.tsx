@@ -33,7 +33,7 @@ const MasterLayout = () => {
               <Sidebar />
               <div className='app-main flex-column flex-row-fluid' id='kt_app_main'>
                 <div className='d-flex flex-column flex-column-fluid'>
-                  <ToolbarWrapper />
+                  {/* <ToolbarWrapper /> */}
                   <Content>
                     <Outlet />
                   </Content>
@@ -45,14 +45,14 @@ const MasterLayout = () => {
         </div>
 
         {/* begin:: Drawers */}
-        <ActivityDrawer />
-        <RightToolbar />
-        <DrawerMessenger />
+        {/* <ActivityDrawer /> */}
+        {/* <RightToolbar /> */}
+        {/* <DrawerMessenger /> */}
         {/* end:: Drawers */}
 
         {/* begin:: Modals */}
-        <InviteUsers />
-        <UpgradePlan />
+        {/* <InviteUsers /> */}
+        {/* <UpgradePlan /> */}
         {/* end:: Modals */}
         <ScrollTop />
       </ThemeModeProvider>

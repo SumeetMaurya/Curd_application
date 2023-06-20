@@ -82,15 +82,16 @@ export function Documents() {
               onChange={(e) => setSalary(e.target.value)}
             />
           </div>
-          {/* <div className="form-group">
-            <label htmlFor="salary">role:</label>
+           <div className="form-group">
+            <label  htmlFor="email">Email :</label>
             <input
               type="string"
-              id="role"
-              value={role}
-              onChange={(e) => setrole(e.target.value)}
+              id="email"
+              value={email}
+              style={{padding: '5px', borderRadius:'5px', margin:'10px'}}
+              onChange={(e) => setEmail(e.target.value)}
             />
-          </div> */}
+          </div>
           <div className="buttons">
             <button type="submit" style={{padding: '5px', borderRadius:'5px'}}>Update</button>
           </div>

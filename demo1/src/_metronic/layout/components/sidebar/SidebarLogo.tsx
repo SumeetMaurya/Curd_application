@@ -18,23 +18,24 @@ const SidebarLogo = () => {
   const appSidebarDefaultMinimizeDefault = config.app?.sidebar?.default?.minimize?.desktop?.default
   return (
     <div className='app-sidebar-logo px-6' id='kt_app_sidebar_logo'>
-      <Link to='/dashboard'>
+      <Link to='/crafted/pages/profile/projects'>
         {config.layoutType === 'dark-sidebar' ? (
           <img
             alt='Logo'
-            src={toAbsoluteUrl('/media/logos/default-dark.svg')}
-            className='h-25px app-sidebar-logo-default'
+            src="https://play-lh.googleusercontent.com/21lQ4ZGn-aamztMXMkv3qVNjwNTr1Cee4r6Y-avQCU9B5W5188RUow2Ceyt-dAm0MA"
+            className='h-55px app-sidebar-logo-default'
+
           />
         ) : (
           <>
             <img
               alt='Logo'
-              src={toAbsoluteUrl('/media/logos/default.svg')}
+              src="https://play-lh.googleusercontent.com/21lQ4ZGn-aamztMXMkv3qVNjwNTr1Cee4r6Y-avQCU9B5W5188RUow2Ceyt-dAm0MA"
               className='h-25px app-sidebar-logo-default theme-light-show'
             />
             <img
               alt='Logo'
-              src={toAbsoluteUrl('/media/logos/default-dark.svg')}
+              src="https://play-lh.googleusercontent.com/21lQ4ZGn-aamztMXMkv3qVNjwNTr1Cee4r6Y-avQCU9B5W5188RUow2Ceyt-dAm0MA"
               className='h-25px app-sidebar-logo-default theme-dark-show'
             />
           </>
@@ -42,7 +43,7 @@ const SidebarLogo = () => {
 
         <img
           alt='Logo'
-          src={toAbsoluteUrl('/media/logos/default-small.svg')}
+          src="https://www.nourishgenie.com/public/desktop/img/registration/nourish_family_logo@2x.png"
           className='h-20px app-sidebar-logo-minimize'
         />
       </Link>
@@ -63,6 +64,7 @@ const SidebarLogo = () => {
         </div>
       )}
     </div>
+
   )
 }
 

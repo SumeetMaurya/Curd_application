@@ -20,7 +20,7 @@ import {
 
 const DashboardPage: FC = () => (
   <>
-    {/* begin::Row */}
+    begin::Row
     <div className='row g-5 g-xl-10 mb-5 mb-xl-10'>
       {/* begin::Col */}
       <div className='col-md-6 col-lg-6 col-xl-6 col-xxl-3 mb-md-5 mb-xl-10'>
@@ -117,8 +117,11 @@ const DashboardWrapper: FC = () => {
   const intl = useIntl()
   return (
     <>
-      <PageTitle breadcrumbs={[]}>{intl.formatMessage({id: 'MENU.DASHBOARD'})}</PageTitle>
-      <DashboardPage />
+    <div className='col-xl-4'>
+        <h1>This is home page go to profile page</h1>
+      </div>
+      {/* <PageTitle breadcrumbs={[]}>{intl.formatMessage({id: 'MENU.DASHBOARD'})}</PageTitle> */}
+      {/* <DashboardPage /> */}
     </>
   )
 }

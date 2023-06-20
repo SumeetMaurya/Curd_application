@@ -47,7 +47,7 @@ const ProfileHeader: React.FC = () => {
                     />
                     Developer
                   </a>
-                  <a
+                  {/* <a
                     href='#'
                     className='d-flex align-items-center text-gray-400 text-hover-primary me-5 mb-2'
                   >
@@ -56,7 +56,7 @@ const ProfileHeader: React.FC = () => {
                       className='svg-icon-4 me-1'
                     />
                     SF, Bay Area
-                  </a>
+                  </a> */}
                   <a
                     href='#'
                     className='d-flex align-items-center text-gray-400 text-hover-primary mb-2'

@@ -23,7 +23,7 @@ const accountBreadCrumbs: Array<PageLink> = [
 const AccountPage: React.FC = () => {
   return (
     <Routes>
-      <Route
+      {/* <Route
         element={
           <>
             <AccountHeader />
@@ -50,7 +50,7 @@ const AccountPage: React.FC = () => {
           }
         />
         <Route index element={<Navigate to='/crafted/account/overview' />} />
-      </Route>
+      </Route> */}
     </Routes>
   )
 }
